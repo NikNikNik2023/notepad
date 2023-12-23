@@ -6,10 +6,10 @@ class Link < Post
   end
 
   def read_from_console
-    puts "Адрес ссылки:"
+    puts "Введите адрес ссылки:"
     @url = STDIN.gets.chomp
 
-    puts "Что за ссылка?"
+    puts "Напишите пару слов о том, куда ведёт ссылка"
     @text = STDIN.gets.chomp
   end
 
